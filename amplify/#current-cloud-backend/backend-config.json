@@ -1,0 +1,9 @@
+{
+    "auth": {
+        "openlearn8c0bb80d": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": []
+        }
+    }
+}

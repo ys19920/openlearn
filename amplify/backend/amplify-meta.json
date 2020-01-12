@@ -1,0 +1,40 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-openlearn-dev-202656-authRole",
+			"UnauthRoleArn": "arn:aws:iam::172051591518:role/amplify-openlearn-dev-202656-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::172051591518:role/amplify-openlearn-dev-202656-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-openlearn-dev-202656-deployment",
+			"UnauthRoleName": "amplify-openlearn-dev-202656-unauthRole",
+			"StackName": "amplify-openlearn-dev-202656",
+			"StackId": "arn:aws:cloudformation:us-east-1:172051591518:stack/amplify-openlearn-dev-202656/a3c08700-34da-11ea-b873-12f08cf73b28",
+			"AmplifyAppId": "djmicw0cd5xnb"
+		}
+	},
+	"auth": {
+		"openlearn8c0bb80d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-openlearn-dev-202656-deployment/amplify-cfn-templates/auth/openlearn8c0bb80d-cloudformation-template.yml",
+				"logicalId": "authopenlearn8c0bb80d"
+			},
+			"lastPushTimeStamp": "2020-01-12T01:36:54.534Z",
+			"output": {
+				"AppClientSecret": "2emf0uingj51omlpb2u8o6g9k3qdjss1v5p706p68gk898m9edb",
+				"UserPoolId": "us-east-1_Tg4rSmFBq",
+				"AppClientIDWeb": "2a9gadnoklsni592mdfrfan1q6",
+				"AppClientID": "4noba5khhb7e4he69m8fg93m7i",
+				"HostedUIDomain": "openlearn8c0bb80d-8c0bb80d-dev",
+				"IdentityPoolId": "us-east-1:c6455f4e-55d7-4fb9-acd3-04dffe85b3ad",
+				"IdentityPoolName": "openlearn8c0bb80d_identitypool_8c0bb80d__dev",
+				"OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"exp://127.0.0.1:19000/\"],\"LogoutURLs\":[\"exp://127.0.0.1:19000/\"]}",
+				"UserPoolName": "openlearn8c0bb80d_userpool_8c0bb80d",
+				"AmazonWebClient": "AKIASQDYS6FPMLB2V5DD"
+			},
+			"lastPushDirHash": "dH0kzIll0cQIceZMqrMfXKftITY="
+		}
+	}
+}
